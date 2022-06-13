@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+header{
+	height:12%;
+	background-color:lightgray;
+	text-align:center;
+	font-size:2em;
+	line-height:350%;
+}
+nav{
+	height:5%;
+	background-color:black;
+	line-height:250%;
+}
+nav li{
+	display:inline;
+	margin:0 1.5%;
+}
+nav li a{
+	text-decoration:none;
+	color:white;
+}
+nav li a:hover{
+	color:red;
+	font-weight:bold;
+	font-size:1.1em;
+}
+section{
+	height:78%;
+}
+section ol li{
+	margin-left:3%;
+}
+#title{
+	font-size:2em;
+	text-align:center;
+}
+#tab{
+	margin:0 auto;
+}
+#tab th{
+	height:40px;
+	width:25%;
+	background-color:lightgray;
+}
+#tab input[type=text],#tab input[type=number],#tab select{
+	height:40px;
+	font-size:1.2em;
+}
+#tab label{
+	height:40px;
+	font-size:1.2em;
+}
+#tab2{
+	margin:0 auto;
+	text-align:center;
+}
+#tab2 th{
+	height:40px;
+	background-color:lightgray;
+}
+#tab2 td{
+	height:40px;
+}
+#tab2 a{
+	text-decoration:none;
+	color:blue;
+}
+#tab2 a:hover{
+	font-weight:bold;
+	font-size:1.1em;
+	color:red;
+	background-color:gray;
+}
+#tab3{
+	margin:0 auto;
+	text-align:center;
+}
+#tab3 th{
+	height:30px;
+	background-color:lightgray;
+}
+#tab3 td{
+	height:30px;
+}
+#tab3 a{
+	text-decoration:none;
+	color:blue;
+}
+#tab3 a:hover{
+	font-weight:bold;
+	font-size:1.1em;
+	color:red;
+	background-color:gray;
+}
+#btntr{
+	text-align:center;
+}
+#btn{
+	height:40px;
+	width:120px;
+	background-color:black;
+	font-size:1.2em;
+	color:white;
+}
+footer{
+	height:5%;
+	background-color:gray;
+	color:white;
+	text-align:center;
+	line-height:250%;
+}
